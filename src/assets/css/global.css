@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  margin: 40px 0 55px;
+}
+/** 重置列表元素 **/
+ul,
+ol {
+  list-style: none;
+}
+/** 重置文本格式元素 **/
+a {
+  text-decoration: none;
+}
+a :focus {
+  outline: none;
+}
+/* 清除浮动 */
+.clear:after {
+  content: '1';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clear {
+  zoom: 1;
+}
+button {
+  outline: none;
+  border: none;
+}
+input {
+  outline: none;
+}
+.mint-toast .mint-toast-text {
+  font-size: 18px;
+}
+.my-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 10px;
+}
+.my-gallery figure {
+  flex: 1;
+  min-width: 30%;
+  height: 90px;
+  box-sizing: border-box;
+  padding: 2px 2px;
+}
+.my-gallery figure a {
+  width: 100%;
+  height: 100%;
+}
+.my-gallery figure a img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=global.css.map */

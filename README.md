@@ -1,4 +1,4 @@
-# vue-dome
+# vue-demo
 
 > 仿移动端商城，SPA单页应用
 
